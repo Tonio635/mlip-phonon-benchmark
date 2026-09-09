@@ -1,8 +1,8 @@
-"""Saving and reloading results using a fixed schema.
+"""Saving and reloading MLIP results using a fixed schema.
 
-Each calculation produces a JSON file in data/results/<model>/<material>.json.
-The schema is identical for both models and the DFT reference: the reporting
-notebook reads them all in the same way, so the comparison reduces to a subtraction.
+Each MLIP calculation produces a JSON file in
+data/results/<model>/<material>.json.
+DFT references are loaded separately from Alexandria by the report notebook.
 """
 
 from __future__ import annotations
