@@ -1,0 +1,12 @@
+# Ambiente M3GNet — separato. Dipende da dgl, che e' la sorgente
+# piu' frequente di conflitti. I nomi delle classi cambiano fra versioni:
+# controllare il README della versione installata.
+tensorflow==2.15.1
+keras==2.15.0
+phonopy>=2.26
+ase>=3.23
+seekpath
+matplotlib
+pandas
+m3gnet==0.2.4
+numpy<2
