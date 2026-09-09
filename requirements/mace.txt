@@ -1,7 +1,4 @@
-# Ambiente MACE — usare un venv/kernel SEPARATO dagli altri due.
-# mace_mp(default_dtype="float64") chiama torch.set_default_dtype, che e' stato
-# globale: istanziare CHGNet o M3GNet nella stessa sessione fa fallire il primo
-# layer lineare con "expected mat1 and mat2 to have the same dtype".
+# Environment MACE - separated.
 mace-torch==0.3.14
 phonopy>=2.26
 ase>=3.23

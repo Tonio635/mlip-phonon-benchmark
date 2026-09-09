@@ -1,6 +1,4 @@
-# Ambiente M3GNet — separato. Dipende da dgl, che e' la sorgente
-# piu' frequente di conflitti. I nomi delle classi cambiano fra versioni:
-# controllare il README della versione installata.
+# Environment M3GNet - separated.
 tensorflow==2.15.1
 keras==2.15.0
 phonopy>=2.26
