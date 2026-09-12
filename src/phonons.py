@@ -390,7 +390,6 @@ def convergence_test(
 
     out = {}
 
-    # Rilassiamo una sola volta la cella iniziale PBE
     relaxed = relax(
         atoms,
         calc,
